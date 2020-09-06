@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite" parallel="classes" thread-count="5">
+    <test name="test">
+        <packages>
+            <package name="cn.yuanpx" />
+        </packages>
+    </test>
+</suite>
