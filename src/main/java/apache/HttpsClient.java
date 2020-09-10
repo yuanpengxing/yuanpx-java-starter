@@ -27,8 +27,8 @@ import java.security.cert.X509Certificate;
 import java.util.*;
 
 public class HttpsClient {
+    private static final int MAX_TIMEOUT = 10000;
     private static RequestConfig requestConfig;
-    private static int MAX_TIMEOUT = 10000;
 
     static {
         RequestConfig.Builder configBuilder = RequestConfig.custom();
