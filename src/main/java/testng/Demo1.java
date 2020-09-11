@@ -9,7 +9,7 @@ public class Demo1 {
     public void testa() {
         System.out.println("Demo1 BeforeMethod");
     }
-    @Test
+    @Test(priority = 0)
     public void test() {
         System.out.println("hello demo1");
     }

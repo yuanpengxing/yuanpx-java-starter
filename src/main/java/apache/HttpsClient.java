@@ -112,16 +112,7 @@ public class HttpsClient {
     }
 
     public static void main(String[] args) {
-        String requestParams = "{\n" +
-                "\"callbackType\":\"1\",\n" +
-                "\"callbackUri\":\"http://121.36.111.187:44597/VM-ALARM/alarm/receive/receiveAlarm\",\n" +
-                "\"channelId\":\"5\",\n" +
-                "\"endSubsTime\":\"1593532800000\",\n" +
-                "\"resourceType\":35,\n" +
-                "\"isValid\":true\n" +
-                "}";
-        String result = post("https://117.78.52.95:443/vas/api/v2/info/subscribe", requestParams);
-        System.out.println(result);
+
     }
 
 }
