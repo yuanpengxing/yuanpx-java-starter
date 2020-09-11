@@ -2,7 +2,7 @@
 <suite name="suite" parallel="classes" thread-count="5">
     <test name="test">
         <packages>
-            <package name="cn.yuanpx" />
+            <package name="testng" />
         </packages>
     </test>
 </suite>

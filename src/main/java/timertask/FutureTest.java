@@ -15,9 +15,7 @@ public class FutureTest {
         };
         //创建一个 ThreadPoolExecutor 对象
         ExecutorService executorService = Executors.newFixedThreadPool(1);
-
         Future<Integer> future = executorService.submit(callable);
-
         try {
             Integer i = future.get();
             System.out.println(i);

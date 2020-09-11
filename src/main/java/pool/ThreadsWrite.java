@@ -23,7 +23,7 @@ public class ThreadsWrite {
         }
     }
 
-    public void close() throws IOException {
+    public static void close() throws IOException {
         bw.close();
     }
 }
