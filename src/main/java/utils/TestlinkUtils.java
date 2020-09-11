@@ -1,3 +1,5 @@
+package utils;
+
 import br.eti.kinoshita.testlinkjavaapi.TestLinkAPI;
 import br.eti.kinoshita.testlinkjavaapi.constants.ActionOnDuplicate;
 import br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException;
@@ -47,7 +49,7 @@ public class TestlinkUtils {
 //                                      String summary, String steps, String preconditions, TestCaseStatus status,
 //                                      TestImportance importance, ExecutionType execution, Integer order, Integer internalId,
 //                                      Boolean checkDuplicatedName, ActionOnDuplicate actionOnDuplicatedName) {
-//        TestLinkAPI api = TestlinkUtils.getTestLinkAPI();
+//        TestLinkAPI api = utils.TestlinkUtils.getTestLinkAPI();
 //        List<TestCaseStep> steps = new ArrayList<TestCaseStep>();
 //
 //        api.createTestCase("单日平均车速统计", 31014, 2852,
