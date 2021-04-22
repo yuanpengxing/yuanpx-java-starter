@@ -13,7 +13,6 @@ import java.util.Objects;
 public class CommonsUtils {
 
     /**
-     *
      * @param packageName example: "cn.yuanpx.testcase", default is whole classes
      * @return
      * @throws IOException
