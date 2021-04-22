@@ -1,7 +1,9 @@
 package automation;
 
 import org.openqa.selenium.WebDriver;
+import org.springframework.stereotype.Component;
 
+@Component("driverDataSource")
 public class DriverDataSource {
     static ThreadLocal<WebDriver> localMap = new ThreadLocal<WebDriver>();
 

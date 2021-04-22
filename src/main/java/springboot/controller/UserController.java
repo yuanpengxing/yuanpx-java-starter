@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 import springboot.entity.User;
 import springboot.mapper.UserMapper;
 
+import javax.annotation.Resource;
+
 @RestController
 public class UserController {
 
