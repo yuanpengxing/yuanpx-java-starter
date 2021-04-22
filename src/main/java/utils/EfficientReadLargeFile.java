@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 
-public class EfficientrReadLargeFile {
+public class EfficientReadLargeFile {
     // 高效读取大型文件
     @Test
     public void testReadLargeFile(File file){
