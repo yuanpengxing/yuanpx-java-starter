@@ -15,7 +15,7 @@ public class CommonsUtils {
     /**
      * @param packageName example: "cn.yuanpx.testcase", default is whole classes
      * @return
-     * @throws IOException
+     * @throws IOExceptiona
      * @throws ClassNotFoundException
      */
     public static List<Class> getSpecifiedClassesUnderClassPath(String packageName) throws IOException, ClassNotFoundException {
