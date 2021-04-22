@@ -25,7 +25,7 @@ public class Entry {
 
     }
 
-//    @Test
+//    @CustomObjectPools
 //    public void runXml() {
 //        TestNG testNG = new TestNG();
 //        List<String> suites = new ArrayList<String>();

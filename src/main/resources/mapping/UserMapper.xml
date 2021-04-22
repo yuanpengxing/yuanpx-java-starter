@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace是命名空间，作用sql语句的隔离，后面还有重要作用 #{}作用就是占位符，相当于jdbc的“?” parameterType：查询的参数类型
+    resultType：查询结果的数据类型，如果给pojo应该给全路径。 -->
+<!-- mapper代理的开发规则： 1、namespace必须时候接口的全限定名 2、Statementid必须和接口的方法名称一致 3、接口方法的参数类型要和parameterType要一致
+    4、接口方法的返回值类型要和resultType一致 -->
+<mapper namespace="springboot.mapper.UserMapper">
+	<!-- 别名不区分大小写 -->
+	<select id="getUserById" parameterType="int" resultType="User" useCache="true">
+        SELECT * FROM `user` WHERE id=#{id};
+    </select>
+
+    <!--parameterType不能没有-->
+    <select id="getUserList" parameterType="int" resultType="java.util.HashMap">
+        SELECT * FROM `user`;
+    </select>
+
+	<select id="updateUserById" parameterType="int">
+        update user set username='hahaha' WHERE id=#{id};
+    </select>
+
+</mapper>

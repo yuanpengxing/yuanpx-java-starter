@@ -112,7 +112,8 @@ public class HttpsClient {
     }
 
     public static void main(String[] args) {
-
+        String s = HttpsClient.post("http://www.baidu.com", "");
+        System.out.println(s);
 
     }
 
