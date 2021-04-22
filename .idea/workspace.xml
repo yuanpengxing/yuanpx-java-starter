@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="350a6193-1de1-4f85-8ed5-6d993c90c2fa" name="Default" comment="basic rich">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apache/HttpsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apache/HttpsClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +41,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="7240" />
+          <entry key="java" value="7266" />
           <entry key="properties" value="4" />
           <entry key="txt" value="32" />
           <entry key="xml" value="6" />
@@ -48,7 +49,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7240" />
+          <entry key="JAVA" value="7266" />
           <entry key="PLAIN_TEXT" value="54" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="6" />
@@ -57,7 +58,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="13" />
-          <entry key="java" value="145" />
+          <entry key="java" value="147" />
           <entry key="properties" value="6" />
           <entry key="xml" value="2" />
         </counts>
@@ -65,7 +66,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="13" />
-          <entry key="JAVA" value="145" />
+          <entry key="JAVA" value="147" />
           <entry key="Properties" value="6" />
           <entry key="XML" value="2" />
         </counts>
@@ -92,7 +93,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/Testa.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
@@ -100,6 +101,24 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/apache/HttpsClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/apache/HttpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3011">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -176,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/main/java/timertask/Task3.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestlinkUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/testng/AbstractTransactionalTestNGSpringContextTestsDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apache/HttpsClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/apache/HttpClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/testng/Demo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/testng/testng.xml" />
@@ -214,6 +232,7 @@
         <option value="$PROJECT_DIR$/src/main/java/db/DatabaseUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/druid.properties" />
         <option value="$PROJECT_DIR$/src/main/java/db/Testa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/apache/HttpsClient.java" />
       </list>
     </option>
   </component>
@@ -290,6 +309,14 @@
               <item name="yuanpx-java-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yuanpx-java-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yuanpx-java-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -302,7 +329,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619089929242" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619090267397" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -493,7 +520,7 @@
       <workItem from="1618214053571" duration="2152000" />
       <workItem from="1618278671422" duration="9904000" />
       <workItem from="1618474067351" duration="1228000" />
-      <workItem from="1619089674082" duration="249000" />
+      <workItem from="1619089674082" duration="584000" />
     </task>
     <task id="LOCAL-00001" summary="Add HttpsClient">
       <created>1599726684220</created>
@@ -572,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619089879584</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="basic rich">
+      <created>1619090018643</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619090018643</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -608,10 +642,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136095000" />
+    <option name="totallyTimeSpent" value="136430000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.492" visible="true" weight="0.21401028" />
@@ -670,20 +704,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar!/org/apache/commons/io/LineIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="1484" column="8" selection-start-line="1484" selection-start-column="8" selection-end-line="1484" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/com/sun/rowset/CachedRowSetImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1017,6 +1037,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apache/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3011">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apache/HttpsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
         </state>
       </provider>
     </entry>
