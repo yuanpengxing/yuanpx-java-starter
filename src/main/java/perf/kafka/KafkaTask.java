@@ -50,21 +50,14 @@ class KafkaTask extends TimerTask {
         for (Map.Entry<String, String> entry: subVinVidMap.entrySet()) {
             StringBuffer sb = new StringBuffer();
             String vin = entry.getKey();
-            sb.append("SUBMIT 0 ");
             sb.append(vin);
-            sb.append(" REALTIME {VID:");
             sb.append(entry.getValue());
-            sb.append("sdasdasdasd");
             sb.append(today);
-            sb.append(",4408:");
             sb.append(hour);
-            sb.append(",4407:");
             sb.append(min);
-            sb.append(",4405:");
             sb.append(sec);
-            sb.append(",9999:20190510154535}");
 
-            producer.send(new ProducerRecord<String, String>("us_general_1", sb.toString()));
+            producer.send(new ProducerRecord<String, String>("topic_1", sb.toString()));
             requests++;
         }
 

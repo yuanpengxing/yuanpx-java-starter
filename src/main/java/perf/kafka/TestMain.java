@@ -16,7 +16,7 @@ public class TestMain {
     public static int flagNum = 0;
 
     public static void main(String[] args) throws IOException, ParseException {
-        String fp = "C:\\Users\\Administrator\\Desktop\\TEST\\vinvid.txt";
+        String fp = "C:\\Users\\Administrator\\Desktop\\TEST\\testa.txt";
         String prompt = " request num per second is: ";
         int threadsNum = 10;
         String ip = "127.0.0.1";
