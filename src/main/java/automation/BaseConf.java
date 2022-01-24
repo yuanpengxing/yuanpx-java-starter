@@ -1,6 +1,6 @@
 package automation;
 
 public interface BaseConf {
-    String driverExecutor = "C:\\chromedriver.exe";
+    String driverExecutor = "D:/exe/chromedriver/96/chromedriver.exe";
 
 }

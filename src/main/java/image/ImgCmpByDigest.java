@@ -7,12 +7,16 @@ import java.io.File;
 
 public class ImgCmpByDigest {
     public static void main(String[] args) throws Exception {
-        float percent = compare(getData("IMG_01.JPG"), getData("IMG_02.JPG"));
+        long t1 = System.currentTimeMillis();
+
+        float percent = compare(getData("C:\\Users\\Think\\IdeaProjects\\yuanpx-java-starter\\src\\main\\java\\image\\aa5.png"), getData("C:\\Users\\Think\\IdeaProjects\\yuanpx-java-starter\\src\\main\\java\\image\\aa6.png"));
         if (percent == 0) {
             System.out.println("无法比较");
         } else {
             System.out.println("两张图片的相似度为：" + percent + "%");
         }
+        long t2 = System.currentTimeMillis();
+        System.out.println(t2 - t1);
     }
 
     public static int[] getData(String name) {
