@@ -26,4 +26,6 @@ public class RootShellCmd {
     public static final void simulateClick(int x, int y) {
         exec(String.format("input tap %d %d &\n", x, y));
     }
+
+
 }
