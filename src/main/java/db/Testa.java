@@ -8,7 +8,7 @@ import java.util.Date;
 public class Testa {
     public static void main(String[] args) throws SQLException {
 
-        String sql = "select * from student where id=10";
+        String sql = "select * from ltsz;";
         Connection connection = DruidUtil.getConnection();
         System.out.println(new Date().getTime());
         Statement statement = connection.createStatement();

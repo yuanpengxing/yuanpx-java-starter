@@ -14,7 +14,7 @@ public class DifferentTimeMySQLDataCmp {
         Connection connection = DruidUtil.getConnection();
         Statement statement = connection.createStatement();
 
-        BufferedReader br1 = new BufferedReader(new FileReader(""));
+        BufferedReader br1 = new BufferedReader(new FileReader("tables.txt"));
         String line1;
         while ((line1 = br1.readLine()) != null) {
             Map<String, String> tableData = DifferentTimeMySQLDataCmp.getTableDataMap(statement, line1);
@@ -30,6 +30,7 @@ public class DifferentTimeMySQLDataCmp {
             if (tableData.size() == count) {
                 tablesData1.put(line1, tableData);
             } else {
+                System.out.println(line1 + "：id不是主键，存在重复，不唯一");
                 System.out.println(line1 + ": tableData数据量" + tableData.size() + ", 实际lines" + count);
             }
 
