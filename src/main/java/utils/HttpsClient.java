@@ -1,4 +1,4 @@
-package apache;
+package utils;
 
 import org.apache.http.client.config.AuthSchemes;
 import org.apache.http.client.config.CookieSpecs;

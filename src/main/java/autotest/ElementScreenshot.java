@@ -1,4 +1,4 @@
-package automation;
+package autotest;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.*;
@@ -16,6 +16,19 @@ public class ElementScreenshot {
 
     public void captureElement(WebElement element) throws Exception {
         File screen = ((TakesScreenshot) driverDataSource.getDriver()).getScreenshotAs(OutputType.FILE);
+        BufferedImage img = ImageIO.read(screen);
+        Dimension size = element.getSize();
+        // 创建一个矩形使用上面的高度，和宽度
+        Rectangle rect = new Rectangle(size.width, size.height);
+        // 得到元素的坐标
+        Point p = element.getLocation();
+        BufferedImage dest = img.getSubimage(p.getX(), p.getY(), rect.width, rect.height);
+        // 存为png格式
+        ImageIO.write(dest, "png", new File("testa"));
+    }
+
+    public void captureElement(WebElement element, WebDriver driver) throws Exception {
+        File screen = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         BufferedImage img = ImageIO.read(screen);
         Dimension size = element.getSize();
         // 创建一个矩形使用上面的高度，和宽度

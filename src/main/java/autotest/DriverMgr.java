@@ -1,4 +1,4 @@
-package automation;
+package autotest;
 
 public class DriverMgr {
 

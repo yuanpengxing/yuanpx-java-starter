@@ -1,4 +1,4 @@
-package automation;
+package autotest;
 
 import java.util.List;
 import java.util.TimerTask;

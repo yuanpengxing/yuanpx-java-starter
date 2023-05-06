@@ -1,4 +1,4 @@
-package automation;
+package autotest;
 
 import java.io.DataOutputStream;
 import java.util.List;

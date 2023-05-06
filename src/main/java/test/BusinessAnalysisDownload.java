@@ -1,6 +1,6 @@
 package test;
 
-import automation.DriverDataSource;
+import autotest.DriverDataSource;
 
 public class BusinessAnalysisDownload {
     public static void main(String[] args) {

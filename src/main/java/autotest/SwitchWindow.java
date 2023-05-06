@@ -1,4 +1,4 @@
-package automation;
+package autotest;
 
 import org.openqa.selenium.WebDriver;
 import org.springframework.stereotype.Component;

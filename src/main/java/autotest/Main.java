@@ -1,4 +1,4 @@
-package automation;
+package autotest;
 
 import org.apache.commons.cli.ParseException;
 import utils.CommandLineUtils;
