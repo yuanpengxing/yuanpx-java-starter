@@ -6,7 +6,7 @@ spring:
         driver-class-name: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/dbtest?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
         username: root
-        password: Root1221!@
+        password: Root-yuan123@
         # 使用druid数据源
         type: com.alibaba.druid.pool.DruidDataSource
         maxActive: 10
